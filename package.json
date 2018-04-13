@@ -1,0 +1,36 @@
+{
+  "name": "hello-koa2",
+  "version": "1.0.0",
+  "description": "Hello Koa 2 example with async",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon --inspect --watch ./app/server --exec babel-node app.js"
+  },
+  "keywords": [
+    "koa",
+    "async"
+  ],
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "ejs": "^2.5.7",
+    "heredoc": "^1.3.1",
+    "koa": "^2.3.0",
+    "koa-router": "^7.2.1",
+    "raw-body": "^2.3.2",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "sha1": "^1.1.1",
+    "xml2js": "^0.4.19"
+  },
+  "author": "Michael Liao",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaelliao/learn-javascript.git"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}
