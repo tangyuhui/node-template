@@ -1,2 +1,4 @@
 import User from './user'
-export { User }
+import Wechat from './wechat'
+
+export { User, Wechat }
