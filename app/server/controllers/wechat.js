@@ -20,7 +20,6 @@ var wechatApi = {
 function onLoginRequest(code){
    return  new Promise(function (resovle, reject) {
         var url = wechatApi.jscode2session + "?appid=" + config.wechat.appid + "&secret=" + config.wechat.appsecret + "&js_code=" + code + "&grant_type=authorization_code";
-        console.log("jscode2session:" + url);
         rp({ "url": url, json: true, simple: false }).then(function (response) {  
             resovle(response);
         }).catch(function (err) {
